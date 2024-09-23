@@ -3,8 +3,8 @@ import streamlit as st
 import google.generativeai as genai
 
 # Configure the API key
-# GOOGLE_API_KEY = st.secrets['chatbot_api_key']
-GOOGLE_API_KEY = 'AIzaSyDd7TxV54pSTYBysC9io8V3_p5giz9V7Bw'
+GOOGLE_API_KEY = st.secrets['chatbot_api_key']
+
 
 genai.configure(api_key=GOOGLE_API_KEY)
 
