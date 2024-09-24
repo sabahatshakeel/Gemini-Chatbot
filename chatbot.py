@@ -5,7 +5,6 @@ import google.generativeai as genai
 # Configure the API key
 GOOGLE_API_KEY = st.secrets['chatbot_api_key']
 
-
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # Initialize the generative AI model
